@@ -22,7 +22,6 @@
                 $('.colorLayer .colorLayer-right span').eq(p).css('background-color', 'rgb(' + Math.round(this.colorArray[0] + R_Unit * i) + ',' + Math.round(this.colorArray[1] + G_Unit * i) + ',' + Math.round(this.colorArray[2] + B_Unit * i) + ')');
             }
 
-            //中间不做四舍五入，减小色差
             $('.colorLayer .colorLayer-right span').eq(40).css('background-color', 'rgb(' + this.colorArray[0] + ',' + this.colorArray[1] + ',' + this.colorArray[2] + ')');
 
             //明度（下半部分41-79）
