@@ -1,3 +1,5 @@
+// 仿淘宝的JQ选色插件
+
 (function ($) {
 
     var color = {
